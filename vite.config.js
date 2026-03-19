@@ -6,5 +6,8 @@ const pagesBase = repo && !isUserOrOrgPage ? `/${repo}/` : '/';
 
 export default defineConfig({
   base: process.env.GITHUB_ACTIONS === 'true' ? pagesBase : '/',
+  build: {
+    sourcemap: true,
+  },
   publicDir: 'public',
 });
