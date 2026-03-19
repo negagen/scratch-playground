@@ -33,7 +33,7 @@ export const toolbox = {
   contents: [
     category('Motion', 'motion', '#4C97FF', '#3373CC', ['motion_movesteps', 'motion_turnright', 'motion_turnleft', 'motion_goto', 'motion_glideto']),
     category('Control', 'control', '#FFAB19', '#CF8B17', ['control_wait', 'control_repeat', 'control_forever', 'control_if', 'control_if_else', 'control_stop']),
-    category('Operators', 'operators', '#59C059', '#389438', ['operator_equals', 'operator_join', 'operator_lt', 'text']),
+    category('Operators', 'operators', '#59C059', '#389438', ['operator_equals', 'operator_join', 'operator_lt']),
   ],
 };
 
