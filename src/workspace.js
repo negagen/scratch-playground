@@ -12,8 +12,9 @@ export function createWorkspace(ScratchBlocks) {
   ScratchBlocks.ScratchMsgs.setLocale('en');
   applyContextMenuFallbacks(ScratchBlocks);
   const theme = new ScratchBlocks.Theme('default', defaultColors);
+  const mediaBase = `${import.meta.env.BASE_URL}media/`;
   return ScratchBlocks.inject(document.getElementById('workspace'), {
-    media: '/media/',
+    media: mediaBase,
     toolbox,
     theme,
     scratchTheme: 'classic',
