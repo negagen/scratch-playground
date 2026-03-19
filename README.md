@@ -24,6 +24,16 @@ yarn build
 yarn preview
 ```
 
+## GitHub Pages
+
+This repo includes `.github/workflows/deploy-pages.yml` to deploy on pushes to `main`.
+
+Required one-time repo settings:
+- Go to `Settings -> Pages`
+- Set `Source` to `GitHub Actions`
+
+Vite base path is configured automatically for Pages builds using `GITHUB_REPOSITORY`.
+
 ## Project structure
 
 - `src/main.js`: app bootstrap
