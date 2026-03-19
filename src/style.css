@@ -1,0 +1,40 @@
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#workspace {
+  width: 100%;
+  height: 100%;
+}
+
+#controls {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+
+#controls input[type='number'] {
+  width: 56px;
+}
+
+#controls button {
+  cursor: pointer;
+}
